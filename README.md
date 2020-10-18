@@ -24,5 +24,5 @@ Projeto COVID19 da DIO
 ## Imagens do projeto
 Tela Principal 
 <h1 align="center">
-    <img alt="Covid19" title="#Covid19" src="https://github.com/carlosjunior1983/covid19-pwa-react/blob/master/src/assets/images/site.jpg"  /><br>
+    <img alt="Covid19" title="#Covid19" src="https://github.com/carlosjunior1983/covid19-pwa-react/blob/master/src/assets/images/site.png"  /><br>
 </h1>
