@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import { Card, Typography, Button, Select, MenuItem } from '../../../components'
 import COUNTRIES from '../../../commons/constants/countries'
 import { CardPanelContentStyled, ItemStyled } from './style'
-import { Typography } from 'components/index'
+
 
 const navigatorHasShare = navigator.share
 
@@ -54,14 +54,15 @@ function Panel({ updateAt, onChange, data, country, getCovidData }){
         <Card>
            <CardPanelContentStyled>
                 <div>
-                    <Typography variant="h5" component='span' color="primary">COVID-19</Typography>
-                    <Typography variant="h6" component='span' color="primary">Painel Corona Vírus</Typography>
-                    <Typography variant="body2" component='span' color="primary">Atualizado em {updateAt} </Typography>
+                    <Typography variant="h5" component='span' color="primary">COVID-19 </Typography><br></br>
+                    <Typography variant="h6" component='span' color="primary">Painel Corona Vírus</Typography><br></br>
+                    <Typography variant="body2" component='span' color="primary">Atualizado em {updateAt} </Typography><br></br>
                     <div className="pt-2">
                         <Select onChange={onChange} value={country} >
                             {COUNTRIES.map(renderCountries)}
                         </Select>
                     </div>
+                    <br></br>
                     {navigatorHasShare ? renderShareButton : renderCopyButton}
                 </div>
             </CardPanelContentStyled> 
