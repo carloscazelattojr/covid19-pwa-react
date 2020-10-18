@@ -17,3 +17,12 @@ Projeto COVID19 da DIO
   
   Dev: `customize-cra` `react-app-rewired`
 
+
+## APP
+  https://covid19-cjr.netlify.app/
+
+## Imagens do projeto
+Tela Principal 
+<h1 align="center">
+    <img alt="Covid19" title="#Covid19" src="https://github.com/carlosjunior1983/covid19-pwa-react/blob/master/src/assets/images/site.jpg"  /><br>
+</h1>
