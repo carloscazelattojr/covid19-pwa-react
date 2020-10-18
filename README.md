@@ -5,6 +5,15 @@ Projeto COVID19 da DIO
 
 ## Instruções
 
-### Iniciar projeto `npm run start`  
+ Iniciar projeto `npm run start`  
 
+
+## API 
+`https://coronavirus-19-api.herokuapp.com/countries/`
  
+## Bibliotecas utilizadas
+
+  Produção: `styled-components` `@material-ui/core` `@material-ui/lab`
+  
+  Dev: `customize-cra` `react-app-rewired`
+
